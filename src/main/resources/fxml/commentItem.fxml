@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Label fx:id="item_text" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Text" wrapText="true" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+            <GridPane.margin>
+                <Insets left="8.0" right="8.0" top="8.0" />
+            </GridPane.margin>
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+          <Label fx:id="item_author" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Author" textFill="#000000b5">
+              <font>
+                  <Font size="14.0" />
+              </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets left="8.0" right="8.0" top="8.0" />
+         </GridPane.margin>
+          </Label>
+    </children>
+</GridPane>

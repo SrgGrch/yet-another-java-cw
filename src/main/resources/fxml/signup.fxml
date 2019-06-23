@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<StackPane xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:id="signUp_stack"
+           fx:controller="newsline.ui.SignUpController">
+    <children>
+        <VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0">
+            <children>
+                <Label text="Регистрация">
+                    <font>
+                        <Font size="28.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="signUp_login" promptText="Логин"
+                >
+                    <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="32.0"/>
+                    </VBox.margin>
+                </TextField>
+                <PasswordField fx:id="signUp_password" promptText="Пароль"
+                >
+                    <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="8.0"/>
+                    </VBox.margin>
+                </PasswordField>
+                <PasswordField fx:id="signUp_passwordRepeat" promptText="Повторите пароль"
+                >
+                    <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="8.0"/>
+                    </VBox.margin>
+                </PasswordField>
+                <Button fx:id="signUp_reg" mnemonicParsing="false"
+                        text="Зарегистрироваться">
+                    <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="8.0"/>
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="signUp_back" mnemonicParsing="false"
+                        text="Назад">
+                    <VBox.margin>
+                        <Insets left="16.0" right="16.0" top="8.0"/>
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</StackPane>
